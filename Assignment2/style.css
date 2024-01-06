@@ -1,0 +1,74 @@
+*{
+    margin: 10px;
+    padding: 10px;
+}
+
+.container{
+    max-width: 1500px;
+    position: relative;
+    text-align: center;
+}
+
+h1, h3 {
+    position: absolute;
+    width: 100%;
+    color: black; /* Adjust the text color */
+    text-align: center;
+  }
+  
+  h1 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4em; /* Adjust the font size */
+    z-index: 2; /* Set z-index to bring it above other elements */
+  }
+  
+  h3 {
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em; /* Adjust the font size */
+    z-index: 1; /* Set z-index to position it below h1 */
+  }
+
+.h-img{
+    width: 1500px;
+    height: 600px;
+}
+
+.pf-img{
+    width: 1500px;
+    height: 600px;
+}
+
+/* Existing CSS code remains unchanged */
+
+nav {
+    position: absolute;
+    bottom: 10px; /* Adjust the distance from the bottom as needed */
+    width: 100%;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin: 0 10px; /* Adjust the spacing between navbar items */
+  }
+  
+  a {
+    text-decoration: dashed;
+    color: black ; /* Adjust the text color */
+    font-size: 2em; /* Adjust the font size */
+  }
+
+  a:hover{
+    color: green;
+  }
+  
